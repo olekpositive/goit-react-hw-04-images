@@ -6,7 +6,6 @@ import { Header, SearchForm, Input, ButtonSubmit } from './Searchbar.styled';
 export class Searchbar extends React.Component {
   state = {
     query: '',
-    page: 1,
   };
 
   handleSearchQueryChange = e => {
